@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: all .5s; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 16px;
+  box-sizing: border-box;
+  transition: all .5s; }
+
+/*
+* Header
+*********************/
+header.head {
+  width: 100%;
+  height: auto;
+  min-height: 50rem;
+  background: url("../img/1.jpg") center center no-repeat no-repeat;
+  background-size: cover;
+  position: relative; }
+  header.head .head__tone {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0; }
+    header.head .head__tone .head__wrapp {
+      width: 80%;
+      max-width: 1170px;
+      min-width: 320px;
+      height: 100%;
+      margin: 0 auto;
+      position: relative; }
+      header.head .head__tone .head__wrapp .head__logo {
+        width: 4rem;
+        height: 4rem;
+        display: inline-block;
+        background: url("../img/logo.png") center center no-repeat no-repeat;
+        background-size: cover;
+        position: absolute;
+        top: 5%;
+        left: 5%; }
+      header.head .head__tone .head__wrapp .head__menu {
+        width: 3.5rem;
+        height: 3.2rem;
+        background: rgba(0, 0, 0, 0.7);
+        display: inline-block;
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        text-align: center; }
+        header.head .head__tone .head__wrapp .head__menu i {
+          display: inline-block;
+          font-size: 2.2rem;
+          color: #fff;
+          line-height: 3.35rem; }
+      header.head .head__tone .head__wrapp .head__name {
+        text-align: center;
+        width: 26rem;
+        height: 3.5rem;
+        border: 4px solid #fff;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -13rem;
+        margin-top: -2rem; }
+        header.head .head__tone .head__wrapp .head__name h1 {
+          color: #fff;
+          font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+          font-size: 2.4rem;
+          padding: .4rem; }
+        header.head .head__tone .head__wrapp .head__name h4 {
+          margin-top: 1.2rem;
+          color: #fff;
+          font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+          font-weight: 200;
+          letter-spacing: 1px;
+          font-size: 12px; }
