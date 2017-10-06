@@ -1,0 +1,206 @@
+@charset "UTF-8";
+* {
+  transition: all .5s;
+  padding: 0;
+  margin: 0;
+  font-family: 'notosans';
+  box-sizing: content-box; }
+
+html {
+  background: black;
+  font-size: 16px;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  min-width: 320px;
+  overflow-x: hidden; }
+
+body {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 1200px;
+  position: relative;
+  z-index: 2; }
+  body #particles-js {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1120px;
+    z-index: 1; }
+
+h2 {
+  font-family: 'Supermolot';
+  color: #313030; }
+
+/*Данные по мне*/
+.description_head1 {
+  display: block;
+  text-align: center;
+  width: 100%;
+  background: linear-gradient(to bottom, rgba(0, 122, 255, 0.25) 0%, rgba(0, 173, 255, 0.13) 40%, rgba(28, 28, 28, 0.32) 150%), linear-gradient(to top, rgba(0, 255, 211, 0.31) 0%, rgba(2, 45, 255, 0.58) 200%);
+  background-blend-mode: multiply;
+  height: 35rem;
+  position: relative; }
+  .description_head1 span {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.72);
+    margin-top: 2rem;
+    font-family: 'supermolot';
+    letter-spacing: 2px;
+    font-size: 2rem; }
+  .description_head1 .description__photo {
+    display: block;
+    width: 35%;
+    margin: 0 auto;
+    position: relative;
+    z-index: 10;
+    /* Мечтака */ }
+    .description_head1 .description__photo .description_img {
+      display: inline-block;
+      border-radius: 50%;
+      width: 250px;
+      height: 250px;
+      margin-top: 10rem;
+      margin-left: -50%;
+      z-index: 10;
+      background: url("../img/photo2.png") center center no-repeat;
+      background-size: cover;
+      transition: all .8s; }
+    .description_head1 .description__photo .description_img1 {
+      transition: all .8s;
+      transform: rotate3d(10, 10, 10, 360deg);
+      display: inline-block;
+      border-radius: 50%;
+      width: 250px;
+      height: 250px;
+      margin-top: 8rem;
+      margin-left: -50%;
+      z-index: 10;
+      background: url("../img/photo1.jpg") center center no-repeat;
+      background-size: cover; }
+    .description_head1 .description__photo .dream2 {
+      display: none;
+      width: 300px;
+      position: absolute;
+      top: 15%;
+      left: 55%;
+      background: linear-gradient(to bottom, rgba(123, 123, 123, 0.28) 0%, rgba(115, 115, 115, 0.28) 40%, rgba(105, 105, 105, 0.28) 150%), linear-gradient(to top, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.18) 200%);
+      background-blend-mode: multiply;
+      border-radius: 50%;
+      transform: rotate(360deg);
+      transition: all .8s; }
+      .description_head1 .description__photo .dream2 p {
+        font-size: .7rem;
+        color: #fff;
+        padding: 2rem; }
+    .description_head1 .description__photo .dream1 {
+      display: none;
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      top: 37%;
+      left: 49%;
+      background: linear-gradient(to bottom, rgba(123, 123, 123, 0.28) 0%, rgba(115, 115, 115, 0.28) 40%, rgba(105, 105, 105, 0.28) 150%), linear-gradient(to top, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.18) 200%);
+      background-blend-mode: multiply;
+      border-radius: 50%;
+      transform: rotate3d(10, 10, 10, 360deg);
+      transition: all .8s; }
+    .description_head1 .description__photo .dream0 {
+      display: none;
+      width: 12px;
+      height: 12px;
+      position: absolute;
+      top: 47%;
+      left: 46%;
+      background: linear-gradient(to bottom, rgba(123, 123, 123, 0.28) 0%, rgba(115, 115, 115, 0.28) 40%, rgba(105, 105, 105, 0.28) 150%), linear-gradient(to top, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.18) 200%);
+      background-blend-mode: multiply;
+      border-radius: 50%;
+      transform: rotate3d(10, 10, 10, 720deg);
+      transition: all .8s; }
+    .description_head1 .description__photo .contact {
+      display: inline-block;
+      width: 285px;
+      text-align: left;
+      position: absolute;
+      top: 48%;
+      margin-left: 1rem; }
+      .description_head1 .description__photo .contact span {
+        margin-top: 7px;
+        font-size: 1rem; }
+        .description_head1 .description__photo .contact span:hover {
+          color: #fff;
+          transition: color .3s; }
+        .description_head1 .description__photo .contact span i {
+          font-size: 1.5rem;
+          padding-right: 1rem; }
+
+.description__data {
+  display: inline-block;
+  width: 350px;
+  margin-left: 26%;
+  background: #fff;
+  background-size: cover;
+  box-shadow: 0 0 20px #fff; }
+  .description__data li ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 0; }
+    .description__data li ul li {
+      margin-left: 2rem;
+      color: rgba(10, 10, 10, 0.8); }
+      .description__data li ul li span {
+        color: inherit; }
+
+@media only screen and (max-width: 859px) {
+  .description {
+    width: 100%;
+    text-align: center; }
+  .description > .description__photo, .description > .description__data {
+    display: block;
+    width: auto;
+    height: auto;
+    float: none;
+    margin: 2rem auto 0;
+    max-width: 300px; }
+  .description_head1 .description__photo .contact {
+    text-align: center;
+    position: relative;
+    font-size: 12px; }
+  .description_head1 .description__photo .contact {
+    display: inline-block;
+    width: 225px;
+    position: relative; }
+    .description_head1 .description__photo .contact span {
+      margin-top: 7px;
+      font-size: 12px; }
+      .description_head1 .description__photo .contact span:hover {
+        color: #fff;
+        transition: color .3s; }
+      .description_head1 .description__photo .contact span i {
+        font-size: 13px;
+        padding-right: 10px; }
+  .description_head1 .description__photo {
+    width: 76%;
+    position: relative; }
+  .description_head1 .description__photo .description_img {
+    margin-left: 0; }
+  .description_head1 .description__photo .dream0,
+  .description_head1 .description__photo .dream1,
+  .description_head1 .description__photo .dream2 {
+    display: none; } }
+
+#pluso {
+  position: fixed;
+  top: 30%;
+  left: 1rem;
+  opacity: .3; }
+  #pluso:hover {
+    opacity: 1; }

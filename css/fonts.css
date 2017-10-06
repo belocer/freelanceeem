@@ -1,0 +1,17 @@
+@charset "UTF-8";
+/*
+Шрифты
+========================================*/
+@font-face {
+  font-family: 'supermolot';
+  src: url("../fonts/supermolot/supermolot-light.eot");
+  src: url("../fonts/supermolot/supermolot-light.eot") format("embedded-opentype"), url("../fonts/supermolot/supermolot-light.woff2") format("woff2"), url("../fonts/supermolot/supermolot-light.woff") format("woff"), url("../fonts/supermolot/supermolot-light.ttf") format("truetype"), url("../fonts/supermolot/supermolot-light.svg") format("svg"), url("../fonts/supermolot/supermolot-light.eot") format("eot");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'notosans';
+  src: url("../fonts/notoSans/notosans-regular.eot");
+  src: url("../fonts/notoSans/notosans-regular.eot") format("embedded-opentype"), url("../fonts/notoSans/notosans-regular.woff2") format("woff2"), url("../fonts/notoSans/notosans-regular.woff") format("woff"), url("../fonts/notoSans/notosans-regular.ttf") format("truetype"), url("../fonts/notoSans/notosans-regular.svg") format("svg"), url("../fonts/notoSans/notosans-regular.eot") format("eot");
+  font-weight: normal;
+  font-style: normal; }

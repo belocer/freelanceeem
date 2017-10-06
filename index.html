@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Портфолио</title>
+
+    <!-- Стили -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/work.css">
+    <link rel="stylesheet" href="css/sertificate.css">
+    <link rel="stylesheet" href="css/dizain.css">
+    <link rel="stylesheet" href="css/task.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menu.css">
+
+    <!--Подключение чата VK-->
+    <!-- Put this script tag to the <head> of your page -->
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?147"></script>
+
+    <script type="text/javascript">
+        VK.init({apiId: 6178796, onlyWidgets: true});
+    </script>
+</head>
+<body>
+
+<!--Меню-->
+<header id="potolok">
+    <nav id="test" class="inplace">
+        <ul id="min_menu" data-menu="0">
+            <li><a href="#">Контакты</a></li>
+            <li><a href="#work">Работы</a></li>
+            <li><a href="#dizain">Дизайн</a></li>
+            <li><a href="#sertificate">Сертификаты</a></li>
+            <li><a href="#task">Задачи</a></li>
+            <li><a href="#vk_comments">Чат</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div class="site__wrap" id="scene">
+
+    <!--Анимированый background-->
+    <div id="particles-js"></div>
+
+    <!-- Блок шапка -->
+    <div class="description_head1">
+        <div class="description__photo">
+            <span class="description_img wow fadeInLeftBig" data-wow-delay=".5s"></span>
+            <div class="contact wow fadeInRightBig" data-wow-delay=".5s">
+                <span><i class="fa fa-user" aria-hidden="true"></i>Денис</span><br>
+                <span><i class="fa fa-skype" aria-hidden="true"></i>belocerkovecden</span><br>
+                <span><i class="fa fa-phone" aria-hidden="true"></i>8 928 304 85 94</span><br>
+                <span><i class="fa fa-envelope-o"
+                         aria-hidden="true"></i>belocerkovecden@mail.ru</span>
+            </div>
+            <div class="dream2">
+                <p>
+                    С удовольствием пошёл бы стажёром на 1-2 месяца, за подзатыльники.
+                    Или поработал бы, с маленькой оплатой, и маленькими требованиями)
+                </p>
+            </div>
+            <div class="dream1"></div>
+            <div class="dream0"></div>
+        </div>
+    </div>
+
+    <!-- Блок со скилами-->
+    <div class="skills_wrap">
+        <h1 class="skills__header">Навыки</h1>
+        <div class="skills wow fadeInUp" data-wow-delay=".2s">
+            <div class="skills__ico1"></div>
+            <h2>Вёрстка сайтов</h2>
+            <p>Чистый, комментированный, валидный код. <br> Адаптивная вёрстка. &gt;IE11 <br> GULP</p>
+        </div>
+        <div class="skills wow fadeInUp" data-wow-delay=".4s">
+            <div class="skills__ico2"></div>
+            <h2>Написание <br> JavaScript кода</h2>
+            <p>Скрипты анимации, калькулятор для сайта, <br> json, ajax, ES6, API, cookie).</p>
+        </div>
+        <div class="skills wow fadeInUp" data-wow-delay=".6s">
+            <div class="skills__ico3"></div>
+            <h2>Написание <br> PHP кода</h2>
+            <p>Работа с БД MySQL PostgreSQL. ООП, MVC, <br> API, Безопасность.</p>
+        </div>
+    </div>
+
+    <!--Выполненые работы-->
+    <div class="good_work" id="work">
+        <h1 class="good_work__header">Работы</h1>
+        <div class="work">
+            <div class="wow fadeInUp" data-wow-offset="200" data-wow-delay=".1s">
+                <h2>Landing Page "ERP CRM"</h2>
+                <span></span>
+                <p>Выпускной проект. Вёрстка страницы + Эфекты.
+                    <span>Используемые технологии:</span> HTML CSS Javascript </p>
+                <a class="main__button" href="http://y9283007.bget.ru/index.html" target="_blank">Landing</a>
+            </div>
+            <div class="wow fadeInUp" data-wow-offset="200" data-wow-delay=".2s">
+                <h2>Landing Page "Ресницы"</h2>
+                <span></span>
+                <p>Дизайн, вёрстка, эфекты, добавил возможность комментировать.
+                    <span>Используемые технологии:</span> HTML CSS Javascript Bootstrap CSV MySQL
+                </p>
+                <a class="main__button" href="http://lashmeyker-krd.esy.es/"
+                   target="_blank">Ресницы</a>
+            </div>
+            <div class="wow fadeInUp" data-wow-offset="200" data-wow-delay=".3s">
+                <h2>Интернет магазин</h2>
+                <span></span>
+                <p>Вёрстка с PSD макета 15 страниц, эфекты, большой функционал.
+                    <span>Используемые технологии:</span> HTML CSS Javascript PHP PostgreSQL </p>
+                <a class="main__button" href="http://portfolio-be-ru.1gb.ru/category1.php"
+                   target="_blank">Онлайн
+                    магазин</a>
+            </div>
+            <div class="wow fadeInUp" data-wow-offset="200" data-wow-delay=".4s">
+                <h2>Админка магазина</h2>
+                <span></span>
+                <p>Вёрстка с PSD макета 15 страниц, эффекты, большой функционал.
+                    <span>Используемые технологии:</span> HTML CSS Javascript PHP PostgreSQL </p>
+                <a class="main__button" href="http://portfolio-be-ru.1gb.ru//backEnd/items.php"
+                   target="_blank">Админка магазина</a>
+            </div>
+            <div class="wow fadeInUp" data-wow-offset="200" data-wow-delay=".5s">
+                <h2>Мой аккаунт github</h2>
+                <span></span>
+                <p>Мои наработки во время обучение и заработка</p>
+                <a class="main__button" href="https://github.com/belocer" target="_blank">Мой
+                    профиль
+                    Github</a>
+            </div>
+        </div>
+        <div class="ico_back3"><span class="layer" data-depth="0.60"><i class="fa fa-code"
+                                                                        aria-hidden="true"></i></span>
+        </div>
+        <div class="ico_back4"><span class="layer" data-depth="0.80"><i class="fa fa-css3"
+                                                                        aria-hidden="true"></i></span>
+        </div>
+        <div class="ico_back5"><span class="layer" data-depth="0.90"><i class="fa fa-desktop"
+                                                                        aria-hidden="true"></i></span>
+        </div>
+        <div class="ico_back6"><span class="layer" data-depth="1.60"><i
+                class="fa fa-american-sign-language-interpreting" aria-hidden="true"></i></span>
+        </div>
+        <div class="ico_back7"><span class="layer" data-depth="0.70"><i class="fa fa-certificate"
+                                                                        aria-hidden="true"></i></span>
+        </div>
+        <div class="ico_back8"><span class="layer" data-depth="1.80"><i class="fa fa-envelope"
+                                                                        aria-hidden="true"></i></span>
+        </div>
+        <div class="ico_back9"><span class="layer" data-depth="0.60"><i class="fa fa-envelope-o"
+                                                                        aria-hidden="true"></i></span>
+        </div>
+        <div class="ico_back14"><span class="layer" data-depth="0.80"><i class="fa fa-html5"
+                                                                         aria-hidden="true"></i></span>
+        </div>
+        <div class="ico_back15"><span class="layer" data-depth="0.90"><i class="fa fa-keyboard-o"
+                                                                         aria-hidden="true"></i></span>
+        </div>
+        <div class="ico_back16"><span class="layer" data-depth="1.60"><i class="fa fa-gamepad"
+                                                                         aria-hidden="true"></i></span>
+        </div>
+
+    </div>
+
+    <!--Дизайн-->
+    <div class="dizain_wrapper" id="dizain">
+        <h1>Дизайн:</h1>
+        <div class="slide__wrapper">
+            <div class="slide" data-int_img="1">
+                <div class="slide__left">
+                    <i class="fa fa-angle-left" aria-hidden="true"></i>
+                </div>
+                <div class="slide__right">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <span class="ico_back11"><i class="fa fa-laptop" aria-hidden="true"></i></span>
+        <span class="ico_back18"><i class="fa fa-desktop" aria-hidden="true"></i></span>
+    </div>
+
+    <!--Сертификаты-->
+    <div class="certificate_wrap" id="sertificate">
+        <div class="certificate">
+            <h2 class="certificate__header">Сертификаты:</h2>
+            <div class="wow fadeInUp" data-wow-offset="200" data-wow-delay=".1s">
+                <h3>Дизайн</h3>
+                <img src="img/dizain.jpg" alt="img">
+                <a href="https://geekbrains.ru/certificates/68471" target="_blank">Перейти на
+                    сайт</a>
+            </div>
+            <div class="wow fadeInUp" data-wow-offset="200" data-wow-delay=".2s">
+                <h3>HTML&amp;CSS</h3>
+                <img src="img/html_css.jpg" alt="img">
+                <a href="https://geekbrains.ru/certificates/63834" target="_blank">Перейти на
+                    сайт</a>
+            </div>
+            <div class="wow fadeInUp" data-wow-offset="200" data-wow-delay=".3s">
+                <h3>Javascript</h3>
+                <img src="img/js.jpg" alt="img">
+                <a href="https://geekbrains.ru/certificates/230954" target="_blank">Перейти на
+                    сайт</a>
+            </div>
+            <div class="wow fadeInUp" data-wow-offset="200" data-wow-delay=".1s">
+                <h3>Основы Веба</h3>
+                <img src="img/os.jpg" alt="img">
+                <a href="https://geekbrains.ru/certificates/69963" target="_blank">Перейти на
+                    сайт</a>
+            </div>
+            <div class="wow fadeInUp" data-wow-offset="200" data-wow-delay=".2s">
+                <h3>PHP</h3>
+                <img src="img/php.jpg" alt="img">
+                <a href="https://geekbrains.ru/certificates/88765" target="_blank">Перейти на
+                    сайт</a>
+            </div>
+            <div class="wow fadeInUp" data-wow-offset="200" data-wow-delay=".3s">
+                <h4>Javascript</h4>
+                <img src="img/ru.png" alt="img">
+                <a href="https://loftschool.com/certificate/VV1492774769/ru" target="_blank">Перейти
+                    на
+                    сайт</a>
+            </div>
+        </div>
+        <div class="ico_back1"><span class="layer" data-depth="0.60"><i class="fa fa-keyboard-o"
+                                                                        aria-hidden="true"></i></span>
+        </div>
+        <div class="ico_back2"><span class="layer" data-depth="0.80"><i class="fa fa-html5"
+                                                                        aria-hidden="true"></i></span>
+        </div>
+        <div class="ico_back10"><span class="layer" data-depth="0.90"><i class="fa fa-globe"
+                                                                         aria-hidden="true"></i></span>
+        </div>
+        <div class="ico_back12"><span class="layer" data-depth="1.60"><i class="fa fa-gamepad"
+                                                                         aria-hidden="true"></i></span>
+        </div>
+        <div class="ico_back13"><span class="layer" data-depth="0.70"><i class="fa fa-database"
+                                                                         aria-hidden="true"></i></span>
+        </div>
+        <div class="ico_back17"><span class="layer" data-depth="1.80"><i class="fa fa-css3"
+                                                                         aria-hidden="true"></i></span>
+        </div>
+    </div>
+
+    <!--Выполненые задачи-->
+    <div class="task" id="task">
+        <h1>Выполненые задачи</h1>
+        <div class="task_wrap">
+            <div class="main">
+                <h2 class="main__header">Вёрстка</h2>
+                <a class="main__button" href="lesson_1/index.html" target="_blank">Адаптив</a>
+                <a class="main__button" href="lesson_2/index.html" target="_blank">Load</a>
+                <a class="main__button" href="lesson_3/index.html" target="_blank">Modal win</a>
+                <a class="main__button" href="lesson_4/index.html" target="_blank">Column</a>
+                <a class="main__button" href="lesson_5/index.html" target="_blank">БЭМ</a>
+                <a class="main__button" href="lesson_6/index.html" target="_blank">grid</a>
+                <a class="main__button" href="lesson_8/index.html" target="_blank">fonts</a>
+                <a class="main__button" href="lesson_9/index.html" target="_blank">SASS</a>
+                <a class="main__button" href="lesson_10/index.html" target="_blank">fonts icon</a>
+                <a class="main__button" href="lesson_11/index.html" target="_blank">Hover</a>
+                <a class="main__button" href="lesson_12/index.html#" target="_blank">Modal win</a>
+                <a class="main__button" href="lesson_13/index.html" target="_blank">Animation</a>
+                <a class="main__button" href="lesson_14/index.html" target="_blank"><span
+                        style="color:red">* </span>Flex-Box</a>
+                <a class="main__button" href="lesson_15/index.html" target="_blank">Bootstrap
+                    grid</a>
+                <a class="main__button" href="lesson_16/index.html" target="_blank">JQuery</a>
+                <a class="main__button" href="lesson_17/index.html" target="_blank">Accordion</a>
+                <a class="main__button" href="lesson_18/index.html" target="_blank">Form JQ</a>
+                <a class="main__button" href="lesson_19/index.html" target="_blank">Modal JQ</a>
+                <a class="main__button" href="lesson_20/index.html" target="_blank">Видеофон</a>
+                <a class="main__button" href="lesson_21/index.html" target="_blank">Parallax</a>
+                <a class="main__button" href="https://www.youtube.com/watch?v=2sfro9tEdTc"
+                   target="_blank">PHP+mail</a>
+                <a class="main__button" href="lesson_23/index.html" target="_blank">Maps</a>
+                <a class="main__button" href="lesson_28/index.html" target="_blank">Оплата</a>
+            </div>
+            <div class="main">
+                <h2 class="main__header">JavaScript</h2>
+                <a class="main__button" href="lf-1/index.html" target="_blank">Function</a>
+                <a class="main__button" href="lf-2/index.html" target="_blank">Отладчик</a>
+                <a class="main__button" href="lf-3/index.html" target="_blank">Array+Object</a>
+                <a class="main__button" href="lf-4/index.html" target="_blank">DOM</a>
+                <a class="main__button" href="lf-5/index.html" target="_blank">Events</a>
+                <a class="main__button" href="lf-6/index.html" target="_blank">Ассинхронность</a>
+                <a class="main__button" href="lf-7/index.html" target="_blank">Cookie</a>
+                <a class="main__button" href="lf-8/index.html" target="_blank">VK friends</a>
+                <a class="main__button" href="lf-9/index.html" target="_blank">Geo Location</a>
+                <a class="main__button" href="lf-10/index.html" target="_blank">VK api</a>
+            </div>
+            <div class="main">
+                <h2 class="main__header">PHP</h2>
+                <a class="main__button" href="lf_php-1/" target="_blank">Основы</a>
+                <a class="main__button" href="lf_php-2/" target="_blank">Функции</a>
+                <a class="main__button" href="lf_php-3/" target="_blank">Файлы</a>
+                <a class="main__button" href="graduation_projects/" target="_blank">1 В.Проект</a>
+                <a class="main__button" href="lf_php-4/" target="_blank">База Данных</a>
+                <a class="main__button" href="http://y9283007.bget.ru/calc/ver.02102016/" target="_blank">Калькулятор дат</a>
+            </div>
+        </div>
+        <div class="ico_back3"><span class="layer" data-depth="1.20"><i class="fa fa-code"
+                                                                        aria-hidden="true"></i></span>
+        </div>
+        <div class="ico_back4"><span class="layer" data-depth="0.80"><i class="fa fa-css3"
+                                                                        aria-hidden="true"></i></span>
+        </div>
+        <div class="ico_back5"><span class="layer" data-depth="0.90"><i class="fa fa-desktop"
+                                                                        aria-hidden="true"></i></span>
+        </div>
+        <div class="ico_back8"><span class="layer" data-depth="1.80"><i class="fa fa-envelope"
+                                                                        aria-hidden="true"></i></span>
+        </div>
+        <div class="ico_back9"><span class="layer" data-depth="0.60"><i class="fa fa-envelope-o"
+                                                                        aria-hidden="true"></i></span>
+        </div>
+        <div class="ico_back14"><span class="layer" data-depth="0.80"><i class="fa fa-html5"
+                                                                         aria-hidden="true"></i></span>
+        </div>
+        <div class="ico_back16"><span class="layer" data-depth="1.60"><i class="fa fa-gamepad"
+                                                                         aria-hidden="true"></i></span>
+        </div>
+
+    </div>
+
+</div>
+
+
+<!--/* pluso */-->
+<script type="text/javascript">(function () {
+    if (window.pluso) if (typeof window.pluso.start == "function") return;
+    if (window.ifpluso == undefined) {
+        window.ifpluso = 1;
+        var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+        s.type = 'text/javascript';
+        s.charset = 'UTF-8';
+        s.async = true;
+        s.src = ('https:' == window.location.protocol ? 'https' : 'http') + '://share.pluso.ru/pluso-like.js';
+        var h = d[g]('body')[0];
+        h.appendChild(s);
+    }
+})();</script>
+<div class="pluso" id="pluso" data-background="transparent"
+     data-options="medium,round,line,vertical,counter,theme=04"
+     data-services="vkontakte,odnoklassniki,facebook,google,moimir"></div>
+
+<!-- BEGIN JIVOSITE CODE {literal} -->
+<script type='text/javascript'>
+    (function () {
+        var widget_id = 'VrzrXsaJ06';
+        var d = document;
+        var w = window;
+
+        function l() {
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = '//code.jivosite.com/script/widget/' + widget_id;
+            var ss = document.getElementsByTagName('script')[0];
+            ss.parentNode.insertBefore(s, ss);
+        }
+
+        if (d.readyState == 'complete') {
+            l();
+        } else {
+            if (w.attachEvent) {
+                w.attachEvent('onload', l);
+            } else {
+                w.addEventListener('load', l, false);
+            }
+        }
+    })();</script>
+<!-- {/literal} END JIVOSITE CODE -->
+
+<!-- Jquery НЕ кроссбраузерный -->
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>-->
+<!-- Jquery кроссбраузерный -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Parallax -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/2.1.3/parallax.min.js"></script>
+<script>
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
+</script>
+
+<script src="js/particles.js" defer></script>
+<script src="js/js.js" defer></script>
+<script src="js/main.js" defer></script>
+
+<!-- WOW.js -->
+<link rel="stylesheet" href="css/animate.css">
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+<!-- VK API -->
+<div id="vk_comments"></div>
+<script type="text/javascript">
+    VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
+</script>
+
+</body>
+</html>
