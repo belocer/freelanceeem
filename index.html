@@ -17,22 +17,34 @@
 </head>
 <body>
 
-<!-- кнопка start-->
-<a href="#menu" class="menu-link">
-    <span></span>
-</a>
-<div class="menu">
-    <ul>
-        <li><a href="#">Главная</a>
-        <li><a href="#contact">Контакты</a>
-        <li><a href="#portfolio">Портфолио</a>
-        <li><a href="#we">Разработчики</a>
+
+<div class="descktop__menu">
+    <ul class="descktop__menu-list" id="descktop_scroll">
+        <li class="descktop__menu-item"><a class="descktop__menu-link" href="#main">Главная</a>
+        <li class="descktop__menu-item"><a class="descktop__menu-link" href="#we">Разработчики</a>
+        <li class="descktop__menu-item"><a class="descktop__menu-link" href="#portfolio">Портфолио</a>
+        <li class="descktop__menu-item"><a class="descktop__menu-link" href="#contact">Контакты</a>
     </ul>
+</div>
+
+<!-- кнопка start-->
+<div class="menu__mobile">
+    <a href="#menu" class="menu-link">
+        <span></span>
+    </a>
+    <div class="menu">
+        <ul id="scroll">
+            <li><a href="#main">Главная</a>
+            <li><a href="#we">Разработчики</a>
+            <li><a href="#portfolio">Портфолио</a>
+            <li><a href="#contact">Контакты</a>
+        </ul>
+    </div>    
 </div>
 <!--stop кнопка -->
 
 <!--HEADER start-->
-<header class="head">
+<header class="head" id="main">
     <div class="head__tone">
         <div class="head__wrapp">
             <a href="#" class="head__logo"></a>
@@ -46,41 +58,52 @@
 </header>
 <!--stop HEADER-->
 
-<!--CONTACT start-->
-<section class="contact" id="contact">
-    <div class="contact__head">
-        <h1>Контакты</h1>
-        <h2>Оставьте Ваше сообщение</h2>
-        <span class="underscoring"></span>
-    </div>
-    <div class="contact__info">
-        <div class="contact__my">
-            <div class="contact__left">
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                <p>E-mail:</p>
-                <p>webdeveloper@gmail.com</p><br>
-                <i class="fa fa-skype" aria-hidden="true"></i>
-                <p>Skype:</p>
-                <p>webdeveloper</p><br>
-                <i class="fa fa-phone" aria-hidden="true"></i>
-                <p>Телефон:</p>
-                <p>+7 999 344 24 24</p><br>
+<!--WE start-->
+<section class="we" id="we">
+    <h1>Мы</h1>
+    <h2>Команда разработчиков</h2>
+    <span class="underscoring"></span>
+    <div class="we__wrap">
+        <div class="we__people">
+            <div class="we__background1"></div>
+            <span class="we__photo1"></span>
+            <div class="we__description">
+                <h3>Михаил Бочаров</h3>
+                <p>Веб-разработчик(Middle): HTML, CSS, Вёрстка, разработка JavaScript PHP Laravel
+                    MySQL</p>
+                <a href="#">Подробней</a>
             </div>
         </div>
-        <div class="contact__your">
-            <form action="#" method="post" class="contact__right">
-                <p>Ваше Имя:</p>
-                <input type="text" name="name" class="contact__input"><br><br>
-                <p>Ваш E-mail:</p>
-                <input type="text" name="email" class="contact__input"><br><br>
-                <p>Сообщение:</p>
-                <textarea name="text"></textarea><br>
-                <button type="submit" class="contact__input">Отправить</button>
-            </form>
+        <div class="we__people">
+            <div class="we__background2"></div>
+            <span class="we__photo2"></span>
+            <div class="we__description">
+                <h3>Иван Марков</h3>
+                <p>Веб-разработчик(Middle): HTML, CSS, Вёрстка, разработка JavaScript PHP Laravel MySQL</p>
+                <a href="#">Подробней</a>
+            </div>
+        </div>
+<!--        <div class="we__people">
+            <div class="we__background3"></div>
+            <span class="we__photo3"></span>
+            <div class="we__description">
+                <h3>Михаил Бочаров</h3>
+                <p>Веб-разработчки(Middle): HTML, CSS, Вёрстка, разработка JavaScript PHP Laravel MySQL</p>
+                <a href="#">Подробней</a>
+            </div>
+        </div>-->
+        <div class="we__people">
+            <div class="we__background4"></div>
+            <span class="we__photo4"></span>
+            <div class="we__description">
+                <h3>Денис Белоцерковец</h3>
+                <p>Веб-разработчик(Junior): HTML, CSS, Вёрстка, разработка JavaScript PHP Wordpress MySQL</p>
+                <a href="https://belocer.github.io/" target="_blank">Подробней</a>
+            </div>
         </div>
     </div>
 </section>
-<!--stop CONTACT-->
+<!--stop WE-->
 
 <!--PORTFOLIO start-->
 <section class="portfolio" id="portfolio">
@@ -181,52 +204,41 @@
 </section>
 <!--stop PORTFOLIO-->
 
-<!--WE start-->
-<section class="we" id="we">
-    <h1>Мы</h1>
-    <h2>Команда разработчиков</h2>
-    <span class="underscoring"></span>
-    <div class="we__wrap">
-        <div class="we__people">
-            <div class="we__background1"></div>
-            <span class="we__photo1"></span>
-            <div class="we__description">
-                <h3>Михаил Бочаров</h3>
-                <p>Веб-разработчик(Middle): HTML, CSS, Вёрстка, разработка JavaScript PHP Laravel
-                    MySQL</p>
-                <a href="#">Подробней</a>
+<!--CONTACT start-->
+<section class="contact" id="contact">
+    <div class="contact__head">
+        <h1>Контакты</h1>
+        <h2>Оставьте Ваше сообщение</h2>
+        <span class="underscoring"></span>
+    </div>
+    <div class="contact__info">
+        <div class="contact__my">
+            <div class="contact__left">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <p>E-mail:</p>
+                <p>webdeveloper@gmail.com</p><br>
+                <i class="fa fa-skype" aria-hidden="true"></i>
+                <p>Skype:</p>
+                <p>webdeveloper</p><br>
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <p>Телефон:</p>
+                <p>+7 999 344 24 24</p><br>
             </div>
         </div>
-        <div class="we__people">
-            <div class="we__background2"></div>
-            <span class="we__photo2"></span>
-            <div class="we__description">
-                <h3>Иван Марков</h3>
-                <p>Веб-разработчик(Middle): HTML, CSS, Вёрстка, разработка JavaScript PHP Laravel MySQL</p>
-                <a href="#">Подробней</a>
-            </div>
-        </div>
-<!--        <div class="we__people">
-            <div class="we__background3"></div>
-            <span class="we__photo3"></span>
-            <div class="we__description">
-                <h3>Михаил Бочаров</h3>
-                <p>Веб-разработчки(Middle): HTML, CSS, Вёрстка, разработка JavaScript PHP Laravel MySQL</p>
-                <a href="#">Подробней</a>
-            </div>
-        </div>-->
-        <div class="we__people">
-            <div class="we__background4"></div>
-            <span class="we__photo4"></span>
-            <div class="we__description">
-                <h3>Денис Белоцерковец</h3>
-                <p>Веб-разработчик(Junior): HTML, CSS, Вёрстка, разработка JavaScript PHP Wordpress MySQL</p>
-                <a href="https://belocer.github.io/" target="_blank">Подробней</a>
-            </div>
+        <div class="contact__your">
+            <form action="#" method="post" class="contact__right">
+                <p>Ваше Имя:</p>
+                <input type="text" name="name" class="contact__input"><br><br>
+                <p>Ваш E-mail:</p>
+                <input type="text" name="email" class="contact__input"><br><br>
+                <p>Сообщение:</p>
+                <textarea name="text"></textarea><br>
+                <button type="submit" class="contact__input">Отправить</button>
+            </form>
         </div>
     </div>
 </section>
-<!--stop WE-->
+<!--stop CONTACT-->
 
 <!--FOOTER start-->
 <footer>
