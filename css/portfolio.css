@@ -47,7 +47,7 @@ html {
         letter-spacing: 1px;
         font-size: 12px; }
   .portfolio .portfolio__works {
-    width: 80%;
+    width: 57%;
     max-width: 1170px;
     margin: 3rem auto;
     display: flex;
@@ -58,8 +58,6 @@ html {
       box-shadow: 0 0 50px rgba(50, 50, 50, 0.9);
       position: relative;
       overflow: hidden;
-      background: url("../img/5.jpg") center center no-repeat no-repeat;
-      background-size: cover;
       text-align: center; }
       .portfolio .portfolio__works .portfolio__work:hover .portfolio__img_ton {
         background-color: rgba(0, 0, 0, 0.6);
@@ -74,9 +72,56 @@ html {
         transform-origin: 0% 0%;
         transform: translateY(100%);
         transition: all .3s; }
-        .portfolio .portfolio__works .portfolio__work .portfolio__img_ton a {
+        .portfolio .portfolio__works .portfolio__work .portfolio__img_ton h1 {
           color: #fff;
-          margin-top: 40%; }
-          .portfolio .portfolio__works .portfolio__work .portfolio__img_ton a i {
-            margin-top: 4.7rem;
-            font-size: 2rem; }
+          font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+          font-size: 1.5rem;
+          padding-top: 1rem; }
+        .portfolio .portfolio__works .portfolio__work .portfolio__img_ton h4 {
+          color: #fff;
+          font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+          padding-top: 1rem; }
+        .portfolio .portfolio__works .portfolio__work .portfolio__img_ton a {
+          border: 2px solid #FE604C;
+          color: #FE604C;
+          margin-top: 9%;
+          text-decoration: none;
+          font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+          padding: 8px;
+          display: inline-block; }
+    .portfolio .portfolio__works .photo_1 {
+      background: url("../img/1.jpg") center center no-repeat no-repeat;
+      background-size: cover; }
+    .portfolio .portfolio__works .photo_2 {
+      background: url("../img/2.jpg") center center no-repeat no-repeat;
+      background-size: cover; }
+    .portfolio .portfolio__works .photo_3 {
+      background: url("../img/3.jpg") center center no-repeat no-repeat;
+      background-size: cover; }
+    .portfolio .portfolio__works .photo_4 {
+      background: url("../img/4.jpg") center center no-repeat no-repeat;
+      background-size: cover; }
+    .portfolio .portfolio__works .photo_5 {
+      background: url("../img/5.jpg") center center no-repeat no-repeat;
+      background-size: cover; }
+    .portfolio .portfolio__works .photo_6 {
+      background: url("../img/6.jpg") center center no-repeat no-repeat;
+      background-size: cover; }
+    .portfolio .portfolio__works .photo_7 {
+      background: url("../img/1.jpg") center center no-repeat no-repeat;
+      background-size: cover; }
+    .portfolio .portfolio__works .photo_8 {
+      background: url("../img/2.jpg") center center no-repeat no-repeat;
+      background-size: cover; }
+    .portfolio .portfolio__works .photo_9 {
+      background: url("../img/3.jpg") center center no-repeat no-repeat;
+      background-size: cover; }
+    .portfolio .portfolio__works .photo_10 {
+      background: url("../img/4.jpg") center center no-repeat no-repeat;
+      background-size: cover; }
+    .portfolio .portfolio__works .photo_11 {
+      background: url("../img/5.jpg") center center no-repeat no-repeat;
+      background-size: cover; }
+    .portfolio .portfolio__works .photo_12 {
+      background: url("../img/6.jpg") center center no-repeat no-repeat;
+      background-size: cover; }
