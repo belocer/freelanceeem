@@ -68,9 +68,13 @@ html {
         font-size: 1rem; }
       .contact .contact__info .contact__your .contact__right input, .contact .contact__info .contact__your .contact__right textarea {
         width: 80%;
-        height: 2.2rem; }
+        height: 2.2rem;
+        text-indent: 1rem;
+        font-size: 1.3rem; }
       .contact .contact__info .contact__your .contact__right textarea {
-        height: 5rem; }
+        height: 5rem;
+        text-indent: 1rem;
+        font-size: 1.3rem; }
       .contact .contact__info .contact__your .contact__right button {
         display: inline-block;
         width: 144px;
@@ -96,7 +100,9 @@ html {
         .contact .contact__info .contact__my .contact__left {
           margin-bottom: 3rem; }
           .contact .contact__info .contact__my .contact__left p, .contact .contact__info .contact__my .contact__left i {
-            margin-left: 0; }
+            margin-left: 0;
+            font-size: 1.2rem;
+            text-indent: 10px; }
       .contact .contact__info .contact__your {
         display: block;
         width: 100%; }

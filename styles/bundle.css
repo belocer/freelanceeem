@@ -308,14 +308,14 @@ hr{margin-top:20px;margin-bottom:20px;border-top:1px solid #eee}
 .contact .contact__info .contact__my .contact__left p{font-size:1rem;margin-bottom:.3rem;margin-left:40%}
 .contact .contact__info .contact__your .contact__right{width:80%;display:inline-block;margin:0 auto}
 .contact .contact__info .contact__your .contact__right p{font-size:1rem}
-.contact .contact__info .contact__your .contact__right input,.contact .contact__info .contact__your .contact__right textarea{width:80%;height:2.2rem}
-.contact .contact__info .contact__your .contact__right textarea{height:5rem}
+.contact .contact__info .contact__your .contact__right input,.contact .contact__info .contact__your .contact__right textarea{width:80%;height:2.2rem;text-indent:1rem;font-size:1.3rem}
+.contact .contact__info .contact__your .contact__right textarea{height:5rem;text-indent:1rem;font-size:1.3rem}
 .contact .contact__info .contact__your .contact__right button{display:inline-block;width:144px;height:43px;background:#FE604C;color:#fff;float:right;margin-top:1rem;margin-right:20%}
 .contact .contact__info .contact__your .contact__right button:hover{background:#cd4f3f}
 @media only screen and (max-width:650px){.contact .contact__info,.contact .contact__info .contact__your{display:block;width:100%}
 .contact{height:auto;min-height:61rem;background:#DDD}
 .contact .contact__info .contact__my .contact__left{margin-bottom:3rem}
-.contact .contact__info .contact__my .contact__left i,.contact .contact__info .contact__my .contact__left p{margin-left:0}
+.contact .contact__info .contact__my .contact__left i,.contact .contact__info .contact__my .contact__left p{margin-left:0;font-size:1.2rem;text-indent:10px}
 .contact .contact__info .contact__your .contact__right{width:100%;display:inline-block;margin:0 auto;text-align:center}
 .contact .contact__info .contact__your .contact__right button{float:none;margin-right:0}
 .contact .contact__info .contact__my{text-align:center;display:block;width:100%}
@@ -1069,7 +1069,7 @@ header.head .head__tone .head__wrapp .head__name h4{margin-top:1.2rem;color:#fff
 .menu ul{list-style:none;padding:0;text-align:left}
 .menu ul a{display:block;line-height:4;text-decoration:none;color:#fff;letter-spacing:4px;-webkit-transition:all .5s;transition:all .5s;padding-left:1rem}
 .lb-loader,.lightbox{text-align:center;line-height:0}
-.menu ul a:hover{background-color:rgba(50,50,50,.9)}
+.menu ul a:hover{background-color:rgba(50,50,50,.3)}
 body:after{content:url(../../images/close.png) url(../../images/loading.gif) url(../../images/prev.png) url(../../images/next.png);display:none}
 .lb-dataContainer:after,.lb-outerContainer:after{content:"";clear:both}
 body.lb-disable-scrolling{overflow:hidden}
