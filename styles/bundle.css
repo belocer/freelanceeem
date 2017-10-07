@@ -17,7 +17,7 @@
 hr,img,legend{border:0}
 legend,td,th{padding:0}
 body,figure{margin:0}
-.contact .contact__head,.fa-fw,.fa-li,.fa-stack-1x,.fa-stack-2x{text-align:center}
+.contact .contact__head,.fa-fw,.fa-li,.fa-stack-1x,.fa-stack-2x,footer{text-align:center}
 html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
 article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}
 audio,canvas,progress,video{display:inline-block;vertical-align:baseline}
@@ -299,7 +299,7 @@ hr{margin-top:20px;margin-bottom:20px;border-top:1px solid #eee}
 .contact{display:inline-block;width:100%;height:auto;min-height:37rem;background:#DDD}
 .contact .contact__head h1{text-transform:uppercase;font-size:2.1rem;margin-top:4rem}
 .contact .contact__head h2{text-transform:uppercase;margin-top:1rem}
-.contact .contact__head span{margin-top:.7rem;display:inline-block;width:100%;height:1rem;background:url(../../img/underscore-b.png) center center no-repeat no-repeat;background-size:contain}
+.contact .contact__head span{margin-top:.7rem;display:inline-block;width:100%;height:1.3rem;background:url(../../img/underscore-b.png) center center no-repeat no-repeat;background-size:contain}
 .contact .contact__info{margin-top:3rem;width:100%;display:flex;justify-content:space-around}
 .contact .contact__info .contact__my,.contact .contact__info .contact__your{display:inline-block;width:50%}
 .contact .contact__info .contact__my>div>p:nth-child(10),.contact .contact__info .contact__my>div>p:nth-child(2),.contact .contact__info .contact__my>div>p:nth-child(6){font-size:1.2rem;text-transform:uppercase;font-weight:700}
@@ -321,12 +321,14 @@ hr{margin-top:20px;margin-bottom:20px;border-top:1px solid #eee}
 .contact .contact__info .contact__my{text-align:center;display:block;width:100%}
 }
 .fa.fa-pull-left,.fa.pull-left{margin-right:.3em}
+.fa,.fa-stack{display:inline-block}
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 @font-face{font-family:FontAwesome;src:url(../../fonts/fontawesome-webfont.eot?v=4.7.0);src:url(../../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format('embedded-opentype'),url(../../fonts/fontawesome-webfont.woff2?v=4.7.0) format('woff2'),url(../../fonts/fontawesome-webfont.woff?v=4.7.0) format('woff'),url(../../fonts/fontawesome-webfont.ttf?v=4.7.0) format('truetype'),url(../../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format('svg');font-weight:400;font-style:normal}
-.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+.fa{font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+footer span,header.head .head__tone .head__wrapp .head__name h1,header.head .head__tone .head__wrapp .head__name h4{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif}
 .fa-lg{font-size:1.33333333em;line-height:.75em;vertical-align:-15%}
 .fa-2x{font-size:2em}
 .fa-3x{font-size:3em}
@@ -355,7 +357,7 @@ hr{margin-top:20px;margin-bottom:20px;border-top:1px solid #eee}
 .fa-flip-horizontal{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";-webkit-transform:scale(-1,1);-ms-transform:scale(-1,1);transform:scale(-1,1)}
 .fa-flip-vertical{-ms-filter:"progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";-webkit-transform:scale(1,-1);-ms-transform:scale(1,-1);transform:scale(1,-1)}
 :root .fa-flip-horizontal,:root .fa-flip-vertical,:root .fa-rotate-180,:root .fa-rotate-270,:root .fa-rotate-90{filter:none}
-.fa-stack{position:relative;display:inline-block;width:2em;height:2em;line-height:2em;vertical-align:middle}
+.fa-stack{position:relative;width:2em;height:2em;line-height:2em;vertical-align:middle}
 .fa-stack-1x,.fa-stack-2x{position:absolute;left:0;width:100%}
 .fa-stack-1x{line-height:inherit}
 .fa-stack-2x{font-size:2em}
@@ -1039,6 +1041,14 @@ hr{margin-top:20px;margin-bottom:20px;border-top:1px solid #eee}
 .sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}
 @font-face{font-family:supermolot;src:url(../../fonts/supermolot/supermolot-light.eot);src:url(../../fonts/supermolot/supermolot-light.eot) format("embedded-opentype"),url(../../fonts/supermolot/supermolot-light.woff2) format("woff2"),url(../../fonts/supermolot/supermolot-light.woff) format("woff"),url(../../fonts/supermolot/supermolot-light.ttf) format("truetype"),url(../../fonts/supermolot/supermolot-light.svg) format("svg"),url(../../fonts/supermolot/supermolot-light.eot) format("eot");font-weight:400;font-style:normal}
 @font-face{font-family:notosans;src:url(../../fonts/notoSans/notosans-regular.eot);src:url(../../fonts/notoSans/notosans-regular.eot) format("embedded-opentype"),url(../../fonts/notoSans/notosans-regular.woff2) format("woff2"),url(../../fonts/notoSans/notosans-regular.woff) format("woff"),url(../../fonts/notoSans/notosans-regular.ttf) format("truetype"),url(../../fonts/notoSans/notosans-regular.svg) format("svg"),url(../../fonts/notoSans/notosans-regular.eot) format("eot");font-weight:400;font-style:normal}
+footer{display:flex;justify-content:space-around;width:100%;height:3rem;background:#444}
+footer span{color:#fff;margin-top:1rem}
+footer span .fa-facebook,footer span .fa-google-plus,footer span .fa-odnoklassniki,footer span .fa-vk{margin-left:2rem;color:#fff;font-size:1.4rem}
+footer span .fa-facebook:hover,footer span .fa-google-plus:hover,footer span .fa-odnoklassniki:hover,footer span .fa-vk:hover{color:#FE604C}
+@media only screen and (max-width:462px){footer{height:6rem}
+header.head .head__tone .head__wrapp .head__name h1{font-size:2rem;padding:.6rem}
+header.head .head__tone .head__wrapp .head__name{width:100%;margin-left:-10rem;margin-top:-2rem}
+}
 header.head{width:100%;height:auto;min-height:55rem;background:url(../../img/1.jpg) center center no-repeat no-repeat;background-size:cover;position:relative}
 header.head .head__tone{background-color:rgba(0,0,0,.6);height:100%;position:absolute;width:100%;top:0;left:0}
 header.head .head__tone .head__wrapp{width:80%;max-width:1170px;min-width:320px;height:100%;margin:0 auto;position:relative}
@@ -1047,8 +1057,8 @@ header.head .head__tone .head__wrapp .head__menu{width:3.5rem;height:3.2rem;back
 header.head .head__tone .head__wrapp .head__menu i{display:inline-block;font-size:2.2rem;color:#fff;line-height:3.35rem}
 .lb-loader,.lightbox{text-align:center;line-height:0}
 header.head .head__tone .head__wrapp .head__name{text-align:center;width:26rem;height:3.5rem;border:4px solid #fff;position:absolute;top:50%;left:50%;margin-left:-13rem;margin-top:-2rem}
-header.head .head__tone .head__wrapp .head__name h1{color:#fff;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:2.4rem;padding:.4rem}
-header.head .head__tone .head__wrapp .head__name h4{margin-top:1.2rem;color:#fff;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-weight:200;letter-spacing:1px;font-size:12px}
+header.head .head__tone .head__wrapp .head__name h1{color:#fff;font-size:2.4rem;padding:.4rem}
+header.head .head__tone .head__wrapp .head__name h4{margin-top:1.2rem;color:#fff;font-weight:200;letter-spacing:1px;font-size:12px}
 body:after{content:url(../../images/close.png) url(../../images/loading.gif) url(../../images/prev.png) url(../../images/next.png);display:none}
 .lb-dataContainer:after,.lb-outerContainer:after{content:"";clear:both}
 body.lb-disable-scrolling{overflow:hidden}
@@ -1084,12 +1094,13 @@ body.lb-disable-scrolling{overflow:hidden}
 .portfolio .portfolio__tone .portfolio__head{text-align:center}
 .portfolio .portfolio__tone .portfolio__head h1{text-transform:uppercase;font-size:2.1rem;margin-top:4rem}
 .portfolio .portfolio__tone .portfolio__head h2{text-transform:uppercase;margin-top:1rem}
-.portfolio .portfolio__tone .portfolio__head span{margin-top:.7rem;display:inline-block;width:100%;height:1rem;background:url(../../img/underscore-w.png) center center no-repeat no-repeat;background-size:contain}
+.portfolio .portfolio__tone .portfolio__head span{margin-top:.7rem;display:inline-block;width:100%;height:1.3rem;background:url(../../img/underscore-w.png) center center no-repeat no-repeat;background-size:contain}
 .portfolio .portfolio__tone .portfolio__head p{margin-top:2.2rem;font-weight:200;letter-spacing:1px;font-size:12px}
-.portfolio .portfolio__works{width:57%;max-width:1170px;margin:3rem auto;display:flex;flex-wrap:wrap}
-.portfolio .portfolio__works .portfolio__work{width:265px;height:182px;box-shadow:0 0 50px rgba(50,50,50,.9);position:relative;overflow:hidden;text-align:center}
+.portfolio .portfolio__works{width:75%;max-width:1170px;margin:3rem auto;display:flex;flex-wrap:wrap}
+.portfolio .portfolio__works .portfolio__work{width:25%;max-width:265px;height:182px;box-shadow:0 0 50px rgba(50,50,50,.9);position:relative;overflow:hidden;text-align:center}
 .portfolio .portfolio__works .portfolio__work:hover .portfolio__img_ton{background-color:rgba(0,0,0,.6);opacity:1;transform:translateY(0);transition:all .3s}
-.portfolio .portfolio__works .portfolio__work .portfolio__img_ton{width:265px;height:182px;background-color:rgba(0,0,0,.6);opacity:0;transform-origin:0 0;transform:translateY(100%);transition:all .3s}
+.portfolio .portfolio__works .portfolio__work .portfolio__img_ton{width:100%;height:182px;background-color:rgba(0,0,0,.6);opacity:0;transform-origin:0 0;transform:translateY(100%);transition:all .3s}
+*,html{transition:all .5s}
 .portfolio .portfolio__works .portfolio__work .portfolio__img_ton h1{font-size:1.5rem;padding-top:1rem}
 .portfolio .portfolio__works .portfolio__work .portfolio__img_ton h4{padding-top:1rem}
 .portfolio .portfolio__works .portfolio__work .portfolio__img_ton a{border:2px solid #FE604C;color:#FE604C;margin-top:9%;text-decoration:none;font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;padding:8px;display:inline-block}
@@ -1105,5 +1116,23 @@ body.lb-disable-scrolling{overflow:hidden}
 .portfolio .portfolio__works .photo_10{background:url(../../img/4.jpg) center center no-repeat no-repeat;background-size:cover}
 .portfolio .portfolio__works .photo_11{background:url(../../img/5.jpg) center center no-repeat no-repeat;background-size:cover}
 .portfolio .portfolio__works .photo_12{background:url(../../img/6.jpg) center center no-repeat no-repeat;background-size:cover}
+@media only screen and (max-width:1349px){.portfolio{min-height:66rem}
+.portfolio .portfolio__works{width:60%}
+.portfolio .portfolio__works .portfolio__work{width:33%}
+.portfolio .portfolio__works .portfolio__work .portfolio__img_ton h1{padding-top:4rem;font-size:1rem}
+.portfolio .portfolio__works .portfolio__work .portfolio__img_ton h4{display:none}
+}
+@media only screen and (max-width:860px){.portfolio{min-height:88rem}
+.portfolio .portfolio__works{width:100%}
+.portfolio .portfolio__works .portfolio__work{width:50%;max-width:400px}
+.portfolio .portfolio__works .portfolio__work .portfolio__img_ton h1{padding-top:4rem;font-size:1rem}
+.portfolio .portfolio__works .portfolio__work .portfolio__img_ton h4{display:none}
+}
+@media only screen and (max-width:450px){.portfolio{min-height:155rem}
+.portfolio .portfolio__works{width:100%}
+.portfolio .portfolio__works .portfolio__work{width:100%;max-width:450px}
+.portfolio .portfolio__works .portfolio__work .portfolio__img_ton h1{padding-top:4rem;font-size:1rem}
+.portfolio .portfolio__works .portfolio__work .portfolio__img_ton h4{display:none}
+}
 *{margin:0;padding:0}
-html{-webkit-tap-highlight-color:transparent;font-size:16px;box-sizing:border-box;transition:all .5s}
+html{-webkit-tap-highlight-color:transparent;font-size:16px;box-sizing:border-box}
