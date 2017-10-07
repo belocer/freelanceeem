@@ -120,14 +120,14 @@ header.head {
 .menu {
   position: fixed;
   right: 15%;
-  top: -27%;
+  top: -100%;
   z-index: 10;
   background: rgba(50, 50, 50, 0.5); }
 
 .menu_active {
   position: fixed;
   right: 14%;
-  top: 12%; }
+  top: 17%; }
 
 .menu ul {
   list-style: none;
