@@ -147,7 +147,7 @@ header.head {
   -webkit-transition: all .5s;
   transition: all .5s;
   width: 100%;
-  padding-left: 1rem; }
+  text-indent: 1rem; }
 
 .menu ul a:hover {
-  background-color: rgba(50, 50, 50, 0.3); }
+  background-color: rgba(50, 50, 50, 0.7); }

@@ -1067,9 +1067,9 @@ header.head .head__tone .head__wrapp .head__name h4{margin-top:1.2rem;color:#fff
 .menu{position:fixed;right:15%;top:-100%;z-index:10;background:rgba(50,50,50,.5)}
 .menu_active{position:fixed;right:14%;top:17%}
 .menu ul{list-style:none;padding:0;text-align:left}
-.menu ul a{display:block;line-height:4;text-decoration:none;color:#fff;letter-spacing:4px;-webkit-transition:all .5s;transition:all .5s;padding-left:1rem}
+.menu ul a{display:block;line-height:4;text-decoration:none;color:#fff;letter-spacing:4px;-webkit-transition:all .5s;transition:all .5s;text-indent:1rem}
 .lb-loader,.lightbox{text-align:center;line-height:0}
-.menu ul a:hover{background-color:rgba(50,50,50,.3)}
+.menu ul a:hover{background-color:rgba(50,50,50,.7)}
 body:after{content:url(../../images/close.png) url(../../images/loading.gif) url(../../images/prev.png) url(../../images/next.png);display:none}
 .lb-dataContainer:after,.lb-outerContainer:after{content:"";clear:both}
 body.lb-disable-scrolling{overflow:hidden}
