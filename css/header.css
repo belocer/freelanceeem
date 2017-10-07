@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0; }
@@ -49,20 +50,6 @@ header.head {
         position: absolute;
         top: 5%;
         left: 5%; }
-      header.head .head__tone .head__wrapp .head__menu {
-        width: 3.5rem;
-        height: 3.2rem;
-        background: rgba(0, 0, 0, 0.7);
-        display: inline-block;
-        position: absolute;
-        top: 5%;
-        right: 5%;
-        text-align: center; }
-        header.head .head__tone .head__wrapp .head__menu i {
-          display: inline-block;
-          font-size: 2.2rem;
-          color: #fff;
-          line-height: 3.35rem; }
       header.head .head__tone .head__wrapp .head__name {
         text-align: center;
         width: 26rem;
@@ -85,3 +72,82 @@ header.head {
           font-weight: 200;
           letter-spacing: 1px;
           font-size: 12px; }
+
+/*
+*Кнопка
+*****/
+.menu-link {
+  position: fixed;
+  top: 50px;
+  right: 20%;
+  z-index: 9;
+  width: 3rem;
+  background: #000;
+  height: 3rem; }
+
+.menu-link span, .menu-link span:before, .menu-link span:after {
+  display: block;
+  height: 2px;
+  width: 30px;
+  position: absolute;
+  left: 50%;
+  margin-left: -15px;
+  top: 50%;
+  margin-top: -2px;
+  background-color: #fff; }
+
+.menu-link span:before {
+  transition: all .5s;
+  content: '';
+  margin-top: -6px; }
+
+.menu-link span:after {
+  transition: all .5s;
+  content: "";
+  margin-top: 4px; }
+
+.menu-link_active span {
+  background-color: transparent; }
+
+.menu-link_active span:before {
+  transform: rotate(135deg);
+  margin-top: 0; }
+
+.menu-link_active span:after {
+  transform: rotate(-135deg);
+  margin-top: 0; }
+
+.menu {
+  position: fixed;
+  right: 15%;
+  top: -27%;
+  z-index: 10;
+  background: rgba(50, 50, 50, 0.5); }
+
+.menu_active {
+  position: fixed;
+  right: 14%;
+  top: 12%; }
+
+.menu ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  width: 100%; }
+
+.menu ul li {
+  width: 100%; }
+
+.menu ul a {
+  display: block;
+  line-height: 4;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 4px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+  width: 100%;
+  padding-left: 1rem; }
+
+.menu ul a:hover {
+  background-color: rgba(50, 50, 50, 0.9); }

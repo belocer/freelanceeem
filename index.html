@@ -16,12 +16,27 @@
     <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
+
+<!-- кнопка start-->
+<a href="#menu" class="menu-link">
+    <span></span>
+</a>
+<div class="menu">
+    <ul>
+        <li><a href="#">Главная</a>
+        <li><a href="#contact">Контакты</a>
+        <li><a href="#portfolio">Портфолио</a>
+        <li><a href="#we">Разработчики</a>
+    </ul>
+</div>
+<!--stop кнопка -->
+
 <!--HEADER start-->
 <header class="head">
     <div class="head__tone">
         <div class="head__wrapp">
-            <div class="head__logo"></div>
-            <div class="head__menu"><i class="fa fa-bars" aria-hidden="true"></i></div>
+            <a href="#" class="head__logo"></a>
+            <!--<div class="head__menu"><i class="fa fa-bars" aria-hidden="true"></i></div>-->
             <div class="head__name">
                 <h1>Garant-Freelancer</h1>
                 <h4>Web-дизайн, Front-End, Back-End.</h4>
@@ -32,7 +47,7 @@
 <!--stop HEADER-->
 
 <!--CONTACT start-->
-<section class="contact">
+<section class="contact" id="contact">
     <div class="contact__head">
         <h1>Контакты</h1>
         <h2>Оставьте Ваше сообщение</h2>
@@ -68,7 +83,7 @@
 <!--stop CONTACT-->
 
 <!--PORTFOLIO start-->
-<section class="portfolio">
+<section class="portfolio" id="portfolio">
     <div class="portfolio__tone">
         <div class="portfolio__head">
             <h1>Портфолио</h1>
@@ -167,7 +182,7 @@
 <!--stop PORTFOLIO-->
 
 <!--WE start-->
-<section class="we">
+<section class="we" id="we">
     <h1>Мы</h1>
     <h2>Команда разработчиков</h2>
     <span class="underscoring"></span>
@@ -206,7 +221,7 @@
             <div class="we__description">
                 <h3>Денис Белоцерковец</h3>
                 <p>Веб-разработчки(Junior): HTML, CSS, Вёрстка, разработка JavaScript PHP Wordpress MySQL</p>
-                <a href="https://belocer.github.io/">Подробней</a>
+                <a href="https://belocer.github.io/" target="_blank">Подробней</a>
             </div>
         </div>
     </div>
@@ -231,6 +246,28 @@
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" defer></script>-->
 <!-- Jquery кроссбраузерный -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<script>
+    $(document).ready(function(){
+
+        var link = $('.menu-link');
+        var link_active = $('.menu-link_active');
+        var menu = $('.menu');
+        var nav_link = $('.menu a');
+
+        link.click(function () {
+            link.toggleClass('menu-link_active');
+            menu.toggleClass('menu_active');
+
+        });
+/*        nav_link.click(function(){
+            link.toggleClass('menu-link_active');
+            menu.toggleClass('menu_active');
+        });*/
+
+    });
+</script>
+
 <script src="js/lightbox.js" defer></script>
 <script src="js/js.js" defer></script>
 
