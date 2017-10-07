@@ -22,7 +22,7 @@ html {
 header.head {
   width: 100%;
   height: auto;
-  min-height: 50rem;
+  min-height: 55rem;
   background: url("../img/1.jpg") center center no-repeat no-repeat;
   background-size: cover;
   position: relative; }

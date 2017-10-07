@@ -11,7 +11,7 @@ html {
   display: inline-block;
   width: 100%;
   height: auto;
-  min-height: 35rem;
+  min-height: 37rem;
   background: #DDDDDD; }
   .contact .contact__head {
     text-align: center;
@@ -29,7 +29,7 @@ html {
       display: inline-block;
       width: 100%;
       height: 1rem;
-      background: url("../img/underscore.png") center center no-repeat no-repeat;
+      background: url("../img/underscore-b.png") center center no-repeat no-repeat;
       background-size: contain; }
   .contact .contact__info {
     margin-top: 3rem;
