@@ -55,13 +55,14 @@ html {
 
     .we__people {
       display: inline-block;
-      width: 350px;
+      width: 400px;
       height: 22rem;
       text-align: center;
       margin: 8rem 5px 5rem 5px;
       border: 1px solid rgba(56, 45, 45, 0.23);
       border-radius: 4px;
       background: #fff;
+      box-shadow: 0 0 50px rgba(50,50,50, .5);
 
 
 
@@ -69,21 +70,25 @@ html {
         background: url("../img/7.jpg") center center no-repeat no-repeat;
         background-size: cover;
         height: 50%;
+        border-radius: 4px 4px 0 0;
       }
       .we__background2 {
         background: url("../img/8.jpg") center center no-repeat no-repeat;
         background-size: cover;
         height: 50%;
+        border-radius: 4px 4px 0 0;
       }
       .we__background3 {
         background: url("../img/9.jpg") center center no-repeat no-repeat;
         background-size: cover;
         height: 50%;
+        border-radius: 4px 4px 0 0;
       }
       .we__background4 {
         background: url("../img/10.jpg") center center no-repeat no-repeat;
         background-size: cover;
         height: 50%;
+        border-radius: 4px 4px 0 0;
       }
 
       .we__photo1 {
