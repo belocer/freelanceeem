@@ -93,7 +93,6 @@ header.head .head__tone .head__wrapp .head__name h4 {
     display: none; } }
 
 .descktop__menu-list {
-  margin: 0;
   padding: 0;
   width: 65%;
   text-align: center;
@@ -116,7 +115,7 @@ header.head .head__tone .head__wrapp .head__name h4 {
   transition: 0.2s; }
 
 .descktop__menu-link:hover {
-  color: #adadad; }
+  color: #FE604C; }
 
 /* end Descktop_menu_styles*/
 /*
